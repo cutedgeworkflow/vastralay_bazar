@@ -1,10 +1,14 @@
+/* Google Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
 body {
     position: relative;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
+/* css for header*/
 header {
     width: 1440px;
     height: 130px;
@@ -19,14 +23,14 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
+/* Logo Image */
 header nav img {
     width: 178.09px;
     height: 50px;
     gap: 0px;
     opacity: 1;
 }
-
+/* Search bar */
 header nav input {
     width: 763px;
     height: 48px;
@@ -37,7 +41,7 @@ header nav input {
     background-color: #F0F0F0;
     opacity: 1;
 }
-
+/* Contact us */
 nav a {
     justify-content: center;
     text-decoration: none;
@@ -58,7 +62,7 @@ nav a {
 .background {
     position: relative;
 }
-
+/* background image main class */
 .background img {
     width: 1505px;
     height: 663px;
@@ -77,7 +81,7 @@ nav a {
     top: 50px;
     left: 100px;
 }
-
+/* Content in main class */
 .content #p1 {
     width: 577px;
     height: 173px;
@@ -103,7 +107,7 @@ nav a {
     opacity: 1;
     padding-top: 20px;
 }
-
+/* shop now button */
 .content button {
     font-family: Satoshi;
     font-size: 16px;
@@ -119,7 +123,7 @@ nav a {
     border-radius: 62px;
     opacity: 1;
     background-color: #000000;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .about {
@@ -135,7 +139,7 @@ nav a {
     opacity: 0px;
 
 }
-
+/* about company review */
 .about div {
     text-align: center; 
 }
