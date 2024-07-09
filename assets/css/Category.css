@@ -96,6 +96,7 @@ footer .bottom-footer {
   font-weight: 400;
 }
 
+/* footer media query  */
 @media (max-width: 500px) {
   footer .top-footer .links i {
     padding: 10px;
@@ -107,3 +108,5 @@ footer .bottom-footer {
     font-size: 20px;
   }
 }
+/* end  */
+/* footer end  */
