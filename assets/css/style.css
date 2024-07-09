@@ -145,11 +145,11 @@ header nav a {
 }
 
 /* about company review */
-.about .review {
+.about .overview {
     text-align: center;
 }
 
-.review p:first-child {
+.overview p:first-child {
     margin: 0;
     font-family: Satoshi;
     font-size: 40px;
@@ -159,7 +159,7 @@ header nav a {
     color: #000000;
 }
 
-.review p:last-child {
+.overview p:last-child {
     margin: 0;
     color: #00000099;
     font-family: Satoshi;
@@ -388,6 +388,38 @@ h2 {
     .container3 {
         display: none;
     }
+}
+
+.customers {
+    padding: 28px 32px 28px 32px;
+    gap: 342px;
+    border-radius: 20px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+}
+
+.customers p:first-child {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+.customers p+p {
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.customers img {
+    width: Hug (138.84px)px;
+    height: Hug (22.58px)px;
+    gap: 6.49px;
+    opacity: 0px;
+
 }
 
 /* ----------------------------------------footer  */
