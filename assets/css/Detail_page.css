@@ -174,7 +174,7 @@ main .main-section .right-main a {
   }
   main .main-section .left-main #main-img {
     width: 80%;
-    background-position: top;
+    /* background-position: top; */
   }
 
   /* .right  */
