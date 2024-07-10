@@ -1,0 +1,12 @@
+section h4:last-child {
+  color: black;
+  font-weight: 600;
+}
+
+.Products-list {
+  display: flex;
+}
+
+.Products-list .product-card {
+  border: 1px solid black;
+}
