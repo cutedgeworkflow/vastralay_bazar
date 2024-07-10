@@ -2,8 +2,7 @@ section h4:last-child {
   color: black;
   font-weight: 600;
 }
-
-.Products-list .products-items {
+.products-items {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;

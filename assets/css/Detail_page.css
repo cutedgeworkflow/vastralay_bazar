@@ -321,3 +321,23 @@ main .main-section .right-main a {
   left: 0;
   background-color: black;
 }
+
+/* ---------------------------------------sproduct list------------------- */
+
+.Our-Product > h2 {
+  font-weight: 900;
+  font-size: 3vw;
+  width: fit-content;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.owl-carousel .item .product-details img {
+  width: 40%;
+}
+
+.owl-carousel .item .product-details a {
+  font-size: 20px;
+  width: fit-content;
+  padding: 10px;
+}
