@@ -414,7 +414,9 @@ h2 {
         display: none;
     }
 }
-
+.container4{
+    position: relative;
+}
 .customers {
     padding: 28px 32px 28px 32px;
     gap: 342px;
@@ -438,17 +440,32 @@ h2 {
     text-align: left;
 
 }
-
 .container4 .customers img {
     width: fit-content;
     gap: 6.49px;
     opacity: 0px;
 
 }
-
 .container4 h2 {
     text-align: left;
     margin-left: 10px;
+}
+.owl-theme .owl-dots{
+    display: none;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: -60px;
+    right: 50px;
+}
+.owl-carousel .owl-nav button{
+    padding: 10px;
+}
+.owl-carousel .owl-nav button .owl-next{
+    background-color:#F0F0F0;
+}
+.owl-carousel .owl-nav button .owl-prev{
+    background-color:#F0F0F0;
 }
 
 /* ----------------------------------------footer  */

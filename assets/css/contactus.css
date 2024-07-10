@@ -146,6 +146,13 @@ textarea {
     border-top-left-radius: 100px;
     overflow: hidden;
 }
+@media (max-width:988px) {
+    .container .bg1{
+        border-top-left-radius: 0px;
+        overflow: visible;
+    }
+    
+}
 
 .img-fluid {
     width: 100%;
