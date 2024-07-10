@@ -1,0 +1,219 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.padding-every-cont {
+    padding: 30px 100px;
+}
+
+/* css for header*/
+
+header {
+    border-bottom: 1px solid #0000004d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Logo Image */
+header nav img {
+    gap: 0px;
+    opacity: 1;
+}
+
+/* Search bar */
+
+header nav .input {
+    width: 60%;
+    padding: 12px 16px;
+    gap: 12px;
+    border-radius: 40px;
+    background: #f0f0f0;
+}
+
+header nav .input input {
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+header nav a {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1010px) {
+    header nav .input {
+        width: 40%;
+    }
+}
+
+@media (max-width: 824px) {
+    .padding-every-cont {
+        padding: 20px 10px;
+    }
+
+    header nav .input {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    header nav a {
+        display: none;
+    }
+
+    header nav .input {
+        display: none;
+    }
+
+    header nav img {
+        margin: auto;
+    }
+}
+
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    z-index: -1;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48.76px;
+
+}
+
+P {
+    color: #FFFFFF;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+label {
+    color: #FFFFFF;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+input,
+textarea {
+    background-color: #313131;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.form-control {
+    background-color: #313131;
+    border: #F1F1F34D;
+}
+
+.form-control::placeholder {
+    color: #FFFFFF99;
+}
+
+
+.container .bg {
+    background-color: #000000;
+    padding: 30px 30px 0 30px;
+    border-bottom-right-radius: 100px;
+}
+
+.container .bg1 {
+    background-color: #F2F0F1;
+    padding: 0;
+    border-top-left-radius: 100px;
+    overflow: hidden;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    border-radius: 62px;
+    padding: 10px 40px 10px 40px;
+    gap: 12px;
+}
+
+footer {
+    background: #f0f0f0;
+    height: 181px;
+}
+
+footer .top-footer {
+    font-family: "Abril Fatface", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0000004d;
+}
+
+footer .top-footer .links i {
+    border: 1px solid #00000033;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+footer .bottom-footer {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+footer h3 {
+    font-family: Abril Fatface;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43.17px;
+    text-align: left;
+}
+
+.bottom-footer p {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    color: #000000;
+}
+
+/* footer media query  */
+@media (max-width: 500px) {
+    footer .top-footer .links i {
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+}
