@@ -1,0 +1,23 @@
+main h4:last-child {
+  color: black;
+  font-weight: 600;
+}
+
+main .main-section {
+  display: flex;
+}
+
+/* ------------------------------------------------- product detail  */
+
+.detail-color {
+  color: #606060;
+  font-size: 20px;
+}
+
+.Product-detail .title {
+  font-weight: 400;
+  margin: 20px 0;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  width: fit-content;
+}
