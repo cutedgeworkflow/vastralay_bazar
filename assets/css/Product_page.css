@@ -3,10 +3,9 @@ section h4:last-child {
   font-weight: 600;
 }
 
-.Products-list {
+.Products-list .products-items {
   display: flex;
-}
-
-.Products-list .product-card {
-  border: 1px solid black;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
