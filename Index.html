@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- remix icon  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
-
-
+    <!-- carousal slider -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -25,7 +25,7 @@
                 <i class="ri-search-line"></i>
                 <input type="search" placeholder="search for Products" />
             </div>
-            <a href="#">Contact Us</a>
+            <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
     <!--  -->
@@ -115,7 +115,7 @@
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
 
-                            <p class="price">$120 <span class="discount">-20%</span></p>
+                            <p class="price">Rs120 <span class="discount">-20%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <p>SKINNY FIT JEANS</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">3.5/5</p>
-                            <p class="price">$240 <span class="discount">-30%</span></p>
+                            <p class="price">Rs240 <span class="discount">-30%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                             <p>CHECKERED SHIRT</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
-                            <p class="price">$260 <span class="discount">-20%</span></p>
+                            <p class="price">Rs260 <span class="discount">-20%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                             <p>SLEEVE STRIPED T-SHIRT</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
-                            <p class="price">$180 <span class="discount">-30%</span></p>
+                            <p class="price">Rs180 <span class="discount">-30%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                             <p>CHECKERED SHIRT</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
-                            <p class="price">$260 <span class="discount">-20%</span></p>
+                            <p class="price">Rs260 <span class="discount">-20%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                             <p>SLEEVE STRIPED T-SHIRT</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
-                            <p class="price">$180 <span class="discount">-30%</span></p>
+                            <p class="price">Rs180 <span class="discount">-30%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -194,7 +194,7 @@
                             <p>T-SHIRT WITH TAPE DETAILS</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">4.5/5</p>
-                            <p class="price">$120 <span class="discount">-20%</span></p>
+                            <p class="price">Rs120 <span class="discount">-20%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                             <p>SKINNY FIT JEANS</p>
                             <img src="assets/image/rating.png" />
                             <p class="rating">3.5/5</p>
-                            <p class="price">$240 <span class="discount">-30%</span></p>
+                            <p class="price">Rs240 <span class="discount">-30%</span></p>
                             <a href="#" class="btn btn-primary btn-view-details">View Details</a>
                         </div>
                     </div>
@@ -214,42 +214,88 @@
                 <a class="button" href="#" class="btn btn-primary btn-view-details">View All</a>
             </div>
         </div>
+        <!-- sliders -->
         <div class="container4">
             <h2>OUR HAPPY CUSTOMERS</h2>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="customers">
-                        <img src="assets/image/rating.png" class="img-fluid" />
-                        <div class="review">
-                            <p>Sarah M.</p>
-                            <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From
-                                casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”
-                            </p>
+            <div id="customerCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="customers">
+                                    <img src="assets/image/rating.png" class="img-fluid" />
+                                    <div class="review">
+                                        <p>Sarah M.</p>
+                                        <p>"I'm blown away by the quality and style of the clothes I received from
+                                            Shop.co. From
+                                            casual wear to elegant dresses, every piece I've bought has exceeded my
+                                            expectations.”
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">        
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="customers">
+                                    <img src="assets/image/rating.png" class="img-fluid" />
+                                    <div class="review">
+                                        <p>Alex K.</p>
+                                        <p>"Finding clothes that align with my personal style used to be a challenge
+                                            until I
+                                            discovered Shop.co. The range of options they offer is truly remarkable,
+                                            catering to a
+                                            variety of tastes and occasions.” </p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">        
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="customers">
+                                    <img src="assets/image/rating.png" class="img-fluid" />
+                                    <div class="review">
+                                        <p>James L.</p>
+                                        <p>"As someone who's always on the lookout for unique fashion pieces, I'm
+                                            thrilled to have
+                                            stumbled upon Shop.co. The selection of clothes is not only diverse but also
+                                            on-point
+                                            with the latest trends.”</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="customers">
+                                    <img src="assets/image/rating.png" class="img-fluid" />
+                                    <div class="review">
+                                        <p>James L.</p>
+                                        <p>"As someone who's always on the lookout for unique fashion pieces, I'm
+                                            thrilled to have
+                                            stumbled upon Shop.co. The selection of clothes is not only diverse but also
+                                            on-point
+                                            with the latest trends.”</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="customers">
-                        <img src="assets/image/rating.png" class="img-fluid" />
-                        <div class="review">
-                            <p>Alex K.</p>
-                            <p>"Finding clothes that align with my personal style used to be a challenge until I
-                                discovered Shop.co. The range of options they offer is truly remarkable, catering to a
-                                variety of tastes and occasions.” </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="customers">
-                        <img src="assets/image/rating.png" class="img-fluid" />
-                        <div class="review">
-                            <p>James L.</p>
-                            <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have
-                                stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point
-                                with the latest trends.”</p>
-                        </div>
-                    </div>
-                </div>
+                <a class="carousel-control-prev" href="#customerCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#customerCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
 
@@ -279,6 +325,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
