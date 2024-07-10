@@ -439,9 +439,8 @@ h2 {
 
 }
 
-.customers img {
-    width: Hug (138.84px)px;
-    height: Hug (22.58px)px;
+.container4 .customers img {
+    width: fit-content;
     gap: 6.49px;
     opacity: 0px;
 

@@ -9,7 +9,8 @@
     <!-- remix icon  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <!-- carousal slider -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -217,88 +218,48 @@
         <!-- sliders -->
         <div class="container4">
             <h2>OUR HAPPY CUSTOMERS</h2>
-            <div id="customerCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="customers">
-                                    <img src="assets/image/rating.png" class="img-fluid" />
-                                    <div class="review">
-                                        <p>Sarah M.</p>
-                                        <p>"I'm blown away by the quality and style of the clothes I received from
-                                            Shop.co. From
-                                            casual wear to elegant dresses, every piece I've bought has exceeded my
-                                            expectations.”
-                                        </p>
-                                    </div>
-                                </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">        
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="customers">
-                                    <img src="assets/image/rating.png" class="img-fluid" />
-                                    <div class="review">
-                                        <p>Alex K.</p>
-                                        <p>"Finding clothes that align with my personal style used to be a challenge
-                                            until I
-                                            discovered Shop.co. The range of options they offer is truly remarkable,
-                                            catering to a
-                                            variety of tastes and occasions.” </p>
-                                    </div>
-                                </div>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">        
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="customers">
-                                    <img src="assets/image/rating.png" class="img-fluid" />
-                                    <div class="review">
-                                        <p>James L.</p>
-                                        <p>"As someone who's always on the lookout for unique fashion pieces, I'm
-                                            thrilled to have
-                                            stumbled upon Shop.co. The selection of clothes is not only diverse but also
-                                            on-point
-                                            with the latest trends.”</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="customers">
-                                    <img src="assets/image/rating.png" class="img-fluid" />
-                                    <div class="review">
-                                        <p>James L.</p>
-                                        <p>"As someone who's always on the lookout for unique fashion pieces, I'm
-                                            thrilled to have
-                                            stumbled upon Shop.co. The selection of clothes is not only diverse but also
-                                            on-point
-                                            with the latest trends.”</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div id="customerCarousel" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="customers">
+                        <img src="assets/image/rating.png" class="img-fluid" />
+                        <div class="review">
+                            <p>Sarah M.</p>
+                            <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#customerCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#customerCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div class="item">
+                    <div class="customers">
+                        <img src="assets/image/rating.png" class="img-fluid" />
+                        <div class="review">
+                            <p>Alex K.</p>
+                            <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.” </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="customers">
+                        <img src="assets/image/rating.png" class="img-fluid" />
+                        <div class="review">
+                            <p>James L.</p>
+                            <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more reviews here -->
+                <div class="item">
+                    <div class="customers">
+                        <img src="assets/image/rating.png" class="img-fluid" />
+                        <div class="review">
+                            <p>James L.</p>
+                            <p>"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-
+        
     </main>
 
     <!-- footer  -->
@@ -325,10 +286,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- carousal -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#customerCarousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
 
 </body>
 
