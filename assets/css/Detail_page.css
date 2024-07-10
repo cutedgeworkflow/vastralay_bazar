@@ -70,7 +70,7 @@ main .main-section .right-main .rating {
   font-size: 23px;
 }
 main .main-section .right-main .rating img {
-  width: 100px;
+  width: 150px;
 }
 
 main .main-section .right-main .price {
@@ -221,7 +221,7 @@ main .main-section .right-main a {
 
   main .main-section .left-main .side-images {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   /* .right  */
