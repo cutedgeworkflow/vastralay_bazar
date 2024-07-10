@@ -260,13 +260,38 @@ h2 {
     text-align: left;
 }
 
-.product-details p:last-child {
+.product-details .price {
     font-family: Satoshi;
     font-size: 24px;
     font-weight: 700;
     line-height: 32.4px;
     text-align: left;
-    color: #000000;
+}
+
+.product-details .discount {
+    padding: 6px 14px 6px 14px;
+    gap: 12px;
+    border-radius: 62px 62px 62px 62px;
+    opacity: 0px;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.2px;
+    text-align: left;
+    background-color:#FF33331A;
+    color:#FF3333;
+
+}
+
+.product-details .off {
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.4px;
+    text-align: left;
+    text-decoration:line-through;
+    color:#00000066;
+    
 }
 
 .product-details a {
@@ -421,7 +446,8 @@ h2 {
     opacity: 0px;
 
 }
-.container4 h2{
+
+.container4 h2 {
     text-align: left;
     margin-left: 10px;
 }
