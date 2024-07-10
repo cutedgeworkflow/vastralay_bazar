@@ -174,7 +174,7 @@ main .main-section .right-main a {
   }
   main .main-section .left-main #main-img {
     width: 80%;
-    background-position: top;
+    /* background-position: top; */
   }
 
   /* .right  */
@@ -320,4 +320,24 @@ main .main-section .right-main a {
   bottom: -0.5px;
   left: 0;
   background-color: black;
+}
+
+/* ---------------------------------------sproduct list------------------- */
+
+.Our-Product > h2 {
+  font-weight: 900;
+  font-size: 3vw;
+  width: fit-content;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.owl-carousel .item .product-details img {
+  width: 40%;
+}
+
+.owl-carousel .item .product-details a {
+  font-size: 20px;
+  width: fit-content;
+  padding: 10px;
 }
