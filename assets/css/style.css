@@ -269,6 +269,7 @@ h2 {
 }
 
 .product-details .discount {
+    margin-left: 10px ;
     padding: 6px 14px 6px 14px;
     gap: 12px;
     border-radius: 62px 62px 62px 62px;
