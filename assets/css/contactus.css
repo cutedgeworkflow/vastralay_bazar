@@ -4,17 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
-.padding-every-cont {
+.contactUss .padding-every-cont {
   padding: 30px 100px;
 }
 
 /* css for header*/
 
-header {
+.contactUss header {
   border-bottom: 1px solid #0000004d;
 }
 
-nav {
+.contactUss nav {
   display: flex;
   justify-content: space-between;
   gap: 5px;
@@ -22,14 +22,14 @@ nav {
 }
 
 /* Logo Image */
-header nav img {
+.contactUss header nav img {
   gap: 0px;
   opacity: 1;
 }
 
 /* Search bar */
 
-header nav .input {
+.contactUss header nav .input {
   width: 60%;
   padding: 12px 16px;
   gap: 12px;
@@ -37,13 +37,13 @@ header nav .input {
   background: #f0f0f0;
 }
 
-header nav .input input {
+.contactUss header nav .input input {
   border: none;
   outline: none;
   background-color: #f0f0f0;
 }
 
-header nav a {
+.contactUss header nav a {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 500;
@@ -52,42 +52,42 @@ header nav a {
 }
 
 @media (max-width: 1010px) {
-  header nav .input {
+  .contactUss header nav .input {
     width: 40%;
   }
 }
 
 @media (max-width: 824px) {
-  .padding-every-cont {
+  .contactUss .padding-every-cont {
     padding: 20px 10px;
   }
 
-  header nav .input {
+  .contactUss header nav .input {
     width: 50%;
   }
 }
 
 @media (max-width: 700px) {
-  header nav a {
+  .contactUss header nav a {
     display: none;
   }
 
-  header nav .input {
+  .contactUss header nav .input {
     display: none;
   }
 
-  header nav img {
+  .contactUss header nav img {
     margin: auto;
   }
 }
 
-.container {
+.contactUss .container {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #000000;
 }
 
-h2 {
+.contactUss h2 {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 40px;
@@ -95,7 +95,7 @@ h2 {
   line-height: 48.76px;
 }
 
-P {
+.contactUss P {
   color: #ffffff;
   font-family: Satoshi;
   font-size: 20px;
@@ -103,7 +103,7 @@ P {
   line-height: 28px;
 }
 
-label {
+.contactUss label {
   color: #ffffff;
   font-family: Be Vietnam Pro;
   font-size: 14px;
@@ -111,8 +111,8 @@ label {
   line-height: 21px;
 }
 
-input,
-textarea {
+.contactUss input,
+.contactUss textarea {
   background-color: #313131;
   font-family: Be Vietnam Pro;
   font-size: 14px;
@@ -120,40 +120,40 @@ textarea {
   line-height: 20px;
 }
 
-.form-control {
+.contactUss .form-control {
   background-color: #313131;
   border: #f1f1f34d;
 }
 
-.form-control::placeholder {
+.contactUss .form-control::placeholder {
   color: #ffffff99;
 }
 
-.container .bg {
+.contactUss .container .bg {
   background-color: #000000;
   padding: 30px 30px 0 30px;
   border-bottom-right-radius: 100px;
 }
 
-.container .bg1 {
+.contactUss .container .bg1 {
   background-color: #f2f0f1;
   padding: 0;
   border-top-left-radius: 100px;
   overflow: hidden;
 }
 @media (max-width: 988px) {
-  .container .bg1 {
+  .contactUss .container .bg1 {
     border-top-left-radius: 0px;
     overflow: visible;
   }
 }
 
-.img-fluid {
+.contactUss .img-fluid {
   width: 100%;
   height: 100%;
 }
 
-.btn {
+.contactUss .btn {
   background-color: #ffffff;
   color: #000000;
   border: none;
