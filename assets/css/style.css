@@ -568,14 +568,6 @@ section h4:last-child {
 }
 
 /* --------------------------------------------------category page  */
-@import url("https://fonts.cdnfonts.com/css/satoshi");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: black;
-}
-
 /* main section  */
 main {
   font-family: Montserrat;
@@ -600,6 +592,11 @@ main .title h4 {
     "one one two" "three four five" "six seven seven"
     "eight nine ten" "elven elven twevel";
 }
+
+.category a {
+  text-decoration: none;
+}
+
 .category .item-all {
   border: 0.1px solid #2e2e2e96;
   border-radius: 20px;
