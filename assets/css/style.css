@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Satoshi;
   box-sizing: border-box;
 }
 
@@ -88,8 +89,6 @@ header nav a:last-child {
 
 .background {
   width: 100%;
-  gap: 0px;
-  opacity: 0px;
   background-color: #f2f0f1;
 }
 
@@ -99,7 +98,7 @@ header nav a:last-child {
 }
 
 /* Content in main class */
-.content #p1 {
+.content h1 {
   margin-top:25px ;
   gap: 0px;
   opacity: 1;
@@ -110,8 +109,7 @@ header nav a:last-child {
   color: #000000;
 }
 
-.content #p2 {
-  font-family: Satoshi;
+.content p {
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -139,10 +137,8 @@ header nav a:last-child {
   display: flex;
   align-items: center;
   margin: 20px 0;
-  /* Adjust the top and bottom margin as needed */
   gap: 32px;
   opacity: 1;
-  /* Set opacity to 1 to make it visible */
 }
 
 /* about company review */
@@ -245,7 +241,6 @@ h2 {
 }
 .col-lg-3{
   flex: auto;
-  text-align: center;
 }
 .container2 img {
   border: none;
@@ -258,33 +253,32 @@ h2 {
 .product-details{
   margin-bottom: 10px;
 }
+.product-card{
+  padding: 0px 20px;
+}
 
 .product-details p:first-child {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
-  /* line-height: 27px; */
-  /* text-align: left; */
+  text-align: left;
 }
 
 .product-details .price {
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
-  /* line-height: 32.4px; */
-  /* text-align: left; */
+  text-align: left;
 }
 
 .product-details .discount {
   margin-left: 10px;
   padding: 6px 14px 6px 14px;
-  /* gap: 12px; */
   border-radius: 62px 62px 62px 62px;
   opacity: 0px;
   font-family: Satoshi;
   font-size: 12px;
   font-weight: 500;
-  /* line-height: 16.2px; */
   text-align: left;
   background-color: #ff33331a;
   color: #ff3333;
@@ -294,8 +288,6 @@ h2 {
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
-  /* line-height: 32.4px; */
-  /* text-align: left; */
   text-decoration: line-through;
   color: #00000066;
 }
@@ -308,6 +300,8 @@ h2 {
   border-radius: 62px 62px 62px 62px;
   opacity: 0px;
   background-color: #000000;
+  font-family: (Satoshi);
+
 }
 
 .product-details img {
@@ -317,6 +311,7 @@ h2 {
 }
 
 .container2 .button {
+  font-family: (Satoshi);
   width: fit-content;
   margin-top: 10px;
   padding: 10px 50px 10px 50px;
@@ -358,20 +353,18 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  .content #p1 {
+  .content h1 {
     display: block;
     font-family: Montserrat, sans-serif;
-    /* Added fallback font */
     font-size: 32px;
     font-weight: 900;
     line-height: 44px;
     text-align: left;
   }
 
-  .content #p2 {
+  .content p {
     display: block;
     font-family: Satoshi, sans-serif;
-    /* Added fallback font */
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -390,7 +383,6 @@ h2 {
 
   .review p:first-child {
     font-family: Satoshi, sans-serif;
-    /* Added fallback font */
     font-size: 30px;
     font-weight: 700;
     line-height: 40.5px;
@@ -399,7 +391,6 @@ h2 {
 
   .review p:last-child {
     font-family: Satoshi, sans-serif;
-    /* Added fallback font */
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
