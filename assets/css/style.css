@@ -100,6 +100,7 @@ header nav a:last-child {
 
 /* Content in main class */
 .content #p1 {
+  margin-top:25px ;
   gap: 0px;
   opacity: 1;
   font-family: Montserrat;
@@ -183,7 +184,7 @@ header nav a:last-child {
   padding: 10px 50px 10px 50px;
   gap: 12px;
   text-align: center;
-  margin-left: 600px;
+  margin: auto;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
@@ -242,7 +243,10 @@ h2 {
   margin: 30px;
   opacity: 1;
 }
-
+.col-lg-3{
+  flex: auto;
+  text-align: center;
+}
 .container2 img {
   border: none;
   border-radius: 20px 20px 20px 20px;
@@ -251,33 +255,36 @@ h2 {
 .container2 .col-3 {
   margin-bottom: 2px;
 }
+.product-details{
+  margin-bottom: 10px;
+}
 
 .product-details p:first-child {
   font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
-  line-height: 27px;
-  text-align: left;
+  /* line-height: 27px; */
+  /* text-align: left; */
 }
 
 .product-details .price {
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
-  line-height: 32.4px;
-  text-align: left;
+  /* line-height: 32.4px; */
+  /* text-align: left; */
 }
 
 .product-details .discount {
   margin-left: 10px;
   padding: 6px 14px 6px 14px;
-  gap: 12px;
+  /* gap: 12px; */
   border-radius: 62px 62px 62px 62px;
   opacity: 0px;
   font-family: Satoshi;
   font-size: 12px;
   font-weight: 500;
-  line-height: 16.2px;
+  /* line-height: 16.2px; */
   text-align: left;
   background-color: #ff33331a;
   color: #ff3333;
@@ -287,13 +294,14 @@ h2 {
   font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
-  line-height: 32.4px;
-  text-align: left;
+  /* line-height: 32.4px; */
+  /* text-align: left; */
   text-decoration: line-through;
   color: #00000066;
 }
 
 .product-details a {
+    color: white;
   border: none;
   padding: 10px 90px 10px 90px;
   gap: 12px;
@@ -314,7 +322,7 @@ h2 {
   padding: 10px 50px 10px 50px;
   gap: 12px;
   text-align: center;
-  margin-left: 600px;
+  margin:auto;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
@@ -341,7 +349,7 @@ h2 {
   padding: 10px 50px 10px 50px;
   gap: 12px;
   text-align: center;
-  margin-left: 600px;
+  margin:auto;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
@@ -407,6 +415,9 @@ h2 {
   }
 
   .container3 {
+    display: none;
+  }
+  .container4{
     display: none;
   }
 }
