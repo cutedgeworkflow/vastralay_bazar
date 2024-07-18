@@ -1,12 +1,13 @@
 /* Google Fonts Import*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url("https://fonts.cdnfonts.com/css/");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Satoshi;
+  font-family: Inter;
   box-sizing: border-box;
 }
 
@@ -99,7 +100,7 @@ header nav a:last-child {
 
 /* Content in main class */
 .content h1 {
-  margin-top:25px ;
+  margin-top: 25px;
   gap: 0px;
   opacity: 1;
   font-family: Montserrat;
@@ -120,7 +121,6 @@ header nav a:last-child {
 
 /* shop now button */
 .content a {
-  font-family: Satoshi;
   font-size: 16px;
   font-weight: 500;
   line-height: 21.6px;
@@ -135,9 +135,8 @@ header nav a:last-child {
 
 .about {
   display: flex;
-  align-items: center;
   margin: 20px 0;
-  gap: 32px;
+  gap: 20px;
   opacity: 1;
 }
 
@@ -148,7 +147,6 @@ header nav a:last-child {
 
 .overview p:first-child {
   margin: 0;
-  font-family: Satoshi;
   font-size: 40px;
   font-weight: 700;
   line-height: 54px;
@@ -158,8 +156,7 @@ header nav a:last-child {
 
 .overview p:last-child {
   margin: 0;
-  color: #00000099;
-  font-family: Satoshi;
+  color: rgba(0, 0, 0, 0.6)100% / 0.6;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -227,7 +224,6 @@ h2 {
   top: 5px;
   left: 10px;
   color: #000000;
-  font-family: Satoshi;
   font-size: 36px;
   font-weight: 700;
   line-height: 48.6px;
@@ -239,9 +235,11 @@ h2 {
   margin: 30px;
   opacity: 1;
 }
-.col-lg-3{
+
+.col-lg-3 {
   flex: auto;
 }
+
 .container2 img {
   border: none;
   border-radius: 20px 20px 20px 20px;
@@ -250,22 +248,22 @@ h2 {
 .container2 .col-3 {
   margin-bottom: 2px;
 }
-.product-details{
+
+.product-details {
   margin-bottom: 10px;
 }
-.product-card{
+
+.product-card {
   padding: 0px 20px;
 }
 
 .product-details p:first-child {
-  font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
   text-align: left;
 }
 
 .product-details .price {
-  font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
   text-align: left;
@@ -276,7 +274,6 @@ h2 {
   padding: 6px 14px 6px 14px;
   border-radius: 62px 62px 62px 62px;
   opacity: 0px;
-  font-family: Satoshi;
   font-size: 12px;
   font-weight: 500;
   text-align: left;
@@ -285,7 +282,6 @@ h2 {
 }
 
 .product-details .off {
-  font-family: Satoshi;
   font-size: 24px;
   font-weight: 700;
   text-decoration: line-through;
@@ -293,15 +289,13 @@ h2 {
 }
 
 .product-details a {
-    color: white;
+  color: white;
   border: none;
   padding: 10px 90px 10px 90px;
   gap: 12px;
   border-radius: 62px 62px 62px 62px;
   opacity: 0px;
   background-color: #000000;
-  font-family: (Satoshi);
-
 }
 
 .product-details img {
@@ -311,13 +305,12 @@ h2 {
 }
 
 .container2 .button {
-  font-family: (Satoshi);
   width: fit-content;
   margin-top: 10px;
   padding: 10px 50px 10px 50px;
   gap: 12px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
@@ -344,7 +337,7 @@ h2 {
   padding: 10px 50px 10px 50px;
   gap: 12px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
@@ -364,7 +357,6 @@ h2 {
 
   .content p {
     display: block;
-    font-family: Satoshi, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -382,7 +374,6 @@ h2 {
   }
 
   .review p:first-child {
-    font-family: Satoshi, sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 40.5px;
@@ -390,31 +381,19 @@ h2 {
   }
 
   .review p:last-child {
-    font-family: Satoshi, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
   }
 
-  .container1 {
-    display: none;
-  }
 
-  .container2 {
-    display: none;
-  }
-
-  .container3 {
-    display: none;
-  }
-  .container4{
-    display: none;
-  }
 }
+
 .container4 {
   position: relative;
 }
+
 .customers {
   padding: 28px 32px 28px 32px;
   gap: 342px;
@@ -423,43 +402,48 @@ h2 {
 }
 
 .customers p:first-child {
-  font-family: Satoshi;
   font-size: 20px;
   font-weight: 700;
   line-height: 22px;
   text-align: left;
 }
 
-.customers p + p {
-  font-family: Satoshi;
+.customers p+p {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
 }
+
 .container4 .customers img {
   width: fit-content;
   gap: 6.49px;
   opacity: 0px;
 }
+
 .container4 h2 {
   text-align: left;
   margin-left: 10px;
 }
+
 .owl-theme .owl-dots {
   display: none;
 }
+
 .owl-theme .owl-nav {
   position: absolute;
   top: -60px;
   right: 50px;
 }
+
 .owl-carousel .owl-nav button {
   padding: 10px;
 }
+
 .owl-carousel .owl-nav button .owl-next {
   background-color: #f0f0f0;
 }
+
 .owl-carousel .owl-nav button .owl-prev {
   background-color: #f0f0f0;
 }
@@ -469,6 +453,11 @@ h2 {
 .first-footer {
   background: #f0f0f0;
   height: 181px;
+}
+
+.first-footer .top-footer .about a {
+  text-decoration: none;
+  color: black;
 }
 
 footer .top-footer {
@@ -489,10 +478,15 @@ footer .top-footer .links i {
 
 footer .bottom-footer {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   font-family: Montserrat;
   font-weight: 400;
 }
+/* sidebar */
+#sidebar{
+  display: none;
+}
+
 
 /* footer media query  */
 @media (max-width: 500px) {
@@ -502,12 +496,13 @@ footer .bottom-footer {
     border-radius: 50%;
     background-color: white;
   }
+
   .first-footer h3 {
     font-size: 20px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .first-footer {
     display: none;
   }
@@ -522,7 +517,7 @@ footer .bottom-footer {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .second-footer {
     position: fixed;
     bottom: 0;
@@ -551,6 +546,7 @@ footer .bottom-footer {
   .second-footer .fc img {
     width: 20px;
   }
+
   .second-footer .category {
     gap: 0;
     margin: 0;
@@ -562,6 +558,7 @@ section h4:last-child {
   color: black;
   font-weight: 600;
 }
+
 .products-items {
   display: flex;
   gap: 20px;
@@ -574,12 +571,14 @@ section h4:last-child {
 main {
   font-family: Montserrat;
 }
+
 main .title {
   display: flex;
   gap: 10px;
   align-items: center;
   height: fit-content;
 }
+
 main .title h4 {
   font-weight: 400;
   color: #2e2e2e;
@@ -636,6 +635,7 @@ main .title h4 {
   background-image: url("../image/causal.png");
   grid-area: five;
 }
+
 .category .six-img {
   background-image: url("../image/causal.png");
   grid-area: six;
@@ -681,16 +681,19 @@ main .title h4 {
       "eight" " nine " "ten" "elven " " twevel";
   }
 }
+
 @media (max-width: 824px) {
   main h4 {
     font-size: 16px;
   }
+
   .category .item-all {
     padding: 10px;
     background-size: auto;
     background-position: right;
   }
 }
+
 @media (max-width: 450px) {
   .category .item-all {
     background-size: cover;
@@ -713,6 +716,7 @@ main .main-section {
   gap: 40px;
   height: auto;
 }
+
 main .main-section .left-main {
   display: flex;
   gap: 20px;
@@ -772,6 +776,7 @@ main .main-section .right-main h2 {
 main .main-section .right-main .rating {
   font-size: 23px;
 }
+
 main .main-section .right-main .rating img {
   width: 150px;
 }
@@ -790,6 +795,7 @@ main .main-section .right-main .price span:nth-child(2) {
   text-decoration: line-through;
   color: #606060;
 }
+
 main .main-section .right-main .price span:nth-child(3) {
   font-size: 1vw;
   color: red;
@@ -836,6 +842,7 @@ main .main-section .right-main .avaliable-color .sizess span {
 main .main-section .right-main .avaliable-color .sizess span:nth-child(2) {
   background: #314f4a;
 }
+
 main .main-section .right-main .avaliable-color .sizess span:nth-child(3) {
   background: #31344f;
 }
@@ -846,6 +853,7 @@ main .main-section .right-main .avaliable-size h6 {
   color: #606060;
   font-size: 25px;
 }
+
 main .main-section .right-main .avaliable-size .sizess {
   display: flex;
   gap: 10px;
@@ -853,6 +861,7 @@ main .main-section .right-main .avaliable-size .sizess {
   border-bottom: 0.5px solid #00000042;
   padding: 20px 0;
 }
+
 main .main-section .right-main .avaliable-size .sizess span {
   font-weight: 400;
   background: #f0f0f0;
@@ -877,6 +886,7 @@ main .main-section .right-main a {
   main .main-section {
     flex-direction: column;
   }
+
   main .main-section .left-main #main-img {
     width: 80%;
     /* background-position: top; */
@@ -945,6 +955,7 @@ main .main-section .right-main a {
     font-size: 2.5vw;
   }
 }
+
 @media (max-width: 500px) {
   main .main-section .left-main #main-img {
     width: 100%;
@@ -956,11 +967,13 @@ main .main-section .right-main a {
     height: 130px;
     background-color: orange;
   }
+
   /* .right  */
 
   main .main-section .right-main h2 {
     font-size: 6vw;
   }
+
   main .main-section .right-main .rating img {
     width: 100px;
   }
@@ -968,6 +981,7 @@ main .main-section .right-main a {
   main .main-section .right-main .price {
     font-size: 5vw;
   }
+
   main .main-section .right-main .rating {
     font-size: 20px;
   }
@@ -975,6 +989,7 @@ main .main-section .right-main a {
   main .main-section .right-main .price span:nth-child(3) {
     font-size: 3vw;
   }
+
   main .main-section .right-main p {
     font-size: 16px;
   }
@@ -986,6 +1001,7 @@ main .main-section .right-main a {
   main .main-section .right-main .avaliable-size h6 {
     font-size: 20px;
   }
+
   main .main-section .right-main .avaliable-size .sizess {
     font-size: 3vw;
     gap: 2px;
@@ -1029,7 +1045,7 @@ main .main-section .right-main a {
 
 /* ---------------------------------------product list------------------- */
 
-.Our-Product > h2 {
+.Our-Product>h2 {
   font-weight: 900;
   font-size: 3vw;
   width: fit-content;
@@ -1050,7 +1066,7 @@ main .main-section .right-main a {
 /* ----------------------------------------------contactus page  */
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url("https://fonts.cdnfonts.com/css/");
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
@@ -1070,7 +1086,6 @@ main .main-section .right-main a {
 
 .contactUss P {
   color: #ffffff;
-  font-family: Satoshi;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -1114,6 +1129,7 @@ main .main-section .right-main a {
   border-top-left-radius: 100px;
   overflow: hidden;
 }
+
 @media (max-width: 988px) {
   .contactUss .container .bg1 {
     border-top-left-radius: 0px;
@@ -1133,4 +1149,79 @@ main .main-section .right-main a {
   border-radius: 62px;
   padding: 10px 40px 10px 40px;
   gap: 12px;
+}
+
+
+/* sidebar */
+@media (max-width: 420px) {
+  #sidebar {
+    display: block;
+    height: 100%;
+    width: 326px;
+    position: fixed;
+    top: 0;
+    right: -300px; /* Off-screen initially */
+    width: 300px;
+
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    z-index: 1000;
+    transition: width 0.3s;
+    overflow-x: hidden;
+  }
+
+  #sidebar .about1 a {
+    border-bottom: 2px solid #0000004D;
+    padding: 15px 8px 15px 16px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #000;
+    display: block;
+    transition: all 0.3s;
+  }
+
+
+  #sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30px;
+  }
+
+  #sidebar .logo {
+    margin-bottom: 20px;
+    padding: 0 16px;
+  }
+
+  #sidebar .logo img {
+    width: 70%;
+  }
+
+  #sidebar .footer1 {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  #sidebar .footer1 a {
+    display: inline;
+    border: 0.65px solid #00000033;
+    border-radius: 24px;
+    color: #000;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 8px 0 15px;
+    padding: 10px;
+  }
+
+  #sidebar .footer1 p {
+    font-size: 14px;
+    font-family: Inter;
+    margin: 25px 10px;
+  }
+
+
 }
