@@ -13,9 +13,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
   <!-- carousal slider -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -319,7 +316,7 @@
         </div>
       </div>
     </div>
-    
+
   </main>
 
   <!-- footer  -->
@@ -374,6 +371,22 @@
   <!-- end -->
 
   <!-- Bootstrap JavaScript Libraries -->
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+      sidebar.style.display = 'block';
+    } else {
+      sidebar.style.display = 'none';
+    }
+  }
+  document.getElementById('sidebarToggle').addEventListener('click', toggleSidebar);
+
+  document.querySelector('.close-btn').addEventListener('click', function() {
+    document.getElementById('sidebar').style.display = 'none';
+  });
+</script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -383,22 +396,45 @@
     crossorigin="anonymous"></script>
   <!-- carousal -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('#customerCarousel').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      dots: false,
-      arrows: true
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#customerCarousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+
+      });
     });
-  });
-</script>
+  </script>
   <script type="text/javascript">
     $(document).ready(function () {
       $('.product-slider').slick({

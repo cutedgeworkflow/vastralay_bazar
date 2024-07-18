@@ -426,28 +426,6 @@ h2 {
   margin-left: 10px;
 }
 
-.owl-theme .owl-dots {
-  display: none;
-}
-
-.owl-theme .owl-nav {
-  position: absolute;
-  top: -60px;
-  right: 50px;
-}
-
-.owl-carousel .owl-nav button {
-  padding: 10px;
-}
-
-.owl-carousel .owl-nav button .owl-next {
-  background-color: #f0f0f0;
-}
-
-.owl-carousel .owl-nav button .owl-prev {
-  background-color: #f0f0f0;
-}
-
 /* ----------------------------------------footer  */
 
 .first-footer {
@@ -1162,7 +1140,6 @@ main .main-section .right-main a {
     top: 0;
     right: -300px; /* Off-screen initially */
     width: 300px;
-
     left: 0;
     background-color: #f8f9fa;
     padding-top: 20px;
@@ -1222,6 +1199,5 @@ main .main-section .right-main a {
     font-family: Inter;
     margin: 25px 10px;
   }
-
 
 }
