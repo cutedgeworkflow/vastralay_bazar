@@ -1131,9 +1131,9 @@ main .main-section .right-main a {
 
 
 /* sidebar */
-@media (max-width: 420px) {
+
   #sidebar {
-    display: block;
+    display: none;
     height: 100%;
     width: 326px;
     position: fixed;
@@ -1200,4 +1200,3 @@ main .main-section .right-main a {
     margin: 25px 10px;
   }
 
-}
