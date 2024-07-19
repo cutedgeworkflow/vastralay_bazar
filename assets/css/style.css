@@ -200,7 +200,8 @@ header nav a:last-child {
   text-align: left;
 
 }
-.box{
+
+.box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -378,7 +379,8 @@ h2 {
   .about {
     display: block;
   }
-  .overview p{
+
+  .overview p {
     padding: 5px;
   }
 
@@ -395,23 +397,28 @@ h2 {
     line-height: 22px;
     text-align: left;
   }
-.container1{
-  padding: 0px;
-  margin: 20px;
-}
-.container4{
-  overflow-x: hidden;
-}
-h2{
-  padding: 5px;
-  font-size: 24px;
-}
-.image-text{
-  font-size: 18px;
-}
-.btn-view-details{
-  margin-bottom: 5px;
-}
+
+  .container1 {
+    padding: 0px;
+    margin: 20px;
+  }
+
+  .container4 {
+    overflow-x: hidden;
+  }
+
+  h2 {
+    padding: 5px;
+    font-size: 24px;
+  }
+
+  .image-text {
+    font-size: 18px;
+  }
+
+  .btn-view-details {
+    margin-bottom: 5px;
+  }
 }
 
 .container4 {
