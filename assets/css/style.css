@@ -197,7 +197,6 @@ header nav a:last-child {
   color: #000000;
   font-size: 36px;
   font-weight: 700;
-  line-height: 48.6px;
   text-align: left;
 
 }
@@ -237,7 +236,6 @@ h2 {
   font-family: Montserrat;
   font-size: 48px;
   font-weight: 900;
-  line-height: 58.51px;
   text-align: center;
   color: #000000;
 }
@@ -358,6 +356,9 @@ h2 {
 }
 
 @media (max-width: 500px) {
+  *{
+    /* overflow-x: hidden; */
+  }
   .content h1 {
     display: block;
     font-family: Montserrat, sans-serif;
@@ -369,9 +370,9 @@ h2 {
 
   .content p {
     display: block;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 22px;
+    /* line-height: 22px; */
     text-align: left;
   }
 
@@ -381,8 +382,10 @@ h2 {
   }
 
   .about {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+  }
+  .overview p{
+    padding: 5px;
   }
 
   .review p:first-child {
@@ -398,8 +401,19 @@ h2 {
     line-height: 22px;
     text-align: left;
   }
-
-
+.container1{
+  padding: 0;
+}
+.container4{
+  overflow-x: hidden;
+}
+h2{
+  font-size: 24px;
+  /* line-height: auto; */
+}
+.image-text{
+  font-size: 18px;
+}
 }
 
 .container4 {
@@ -1156,7 +1170,6 @@ main .main-section .right-main a {
   position: fixed;
   top: 0;
   right: -300px;
-  /* Off-screen initially */
   width: 300px;
   left: 0;
   background-color: #f8f9fa;
