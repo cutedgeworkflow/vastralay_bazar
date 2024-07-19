@@ -209,12 +209,10 @@ header nav a:last-child {
 
 .column-small {
   flex: 1 1 30%;
-  /* width: 30%; */
 }
 
 .column-large {
   flex: 1 1 60%;
-  /* width: 60%; */
 }
 
 .btn-view-details {
@@ -356,9 +354,6 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  *{
-    /* overflow-x: hidden; */
-  }
   .content h1 {
     display: block;
     font-family: Montserrat, sans-serif;
@@ -372,7 +367,6 @@ h2 {
     display: block;
     font-size: 12px;
     font-weight: 400;
-    /* line-height: 22px; */
     text-align: left;
   }
 
@@ -402,17 +396,21 @@ h2 {
     text-align: left;
   }
 .container1{
-  padding: 0;
+  padding: 0px;
+  margin: 20px;
 }
 .container4{
   overflow-x: hidden;
 }
 h2{
+  padding: 5px;
   font-size: 24px;
-  /* line-height: auto; */
 }
 .image-text{
   font-size: 18px;
+}
+.btn-view-details{
+  margin-bottom: 5px;
 }
 }
 
